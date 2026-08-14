@@ -610,35 +610,7 @@ header .subtitle {
     }
 
     .tools-used {
-        border: none !important;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-
-    .tools-list {
-        display: block !important;
-        font-size: 11pt !important;
-        margin-bottom: 0.05in !important;
-    }
-
-    .tools-list span {
-        background: none !important;
-        color: #000 !important;
-        padding: 0 !important;
-        border-radius: 0 !important;
-        font-size: 11pt !important;
-        font-weight: normal !important;
-        border: none !important;
-        display: inline !important;
-        margin: 0 !important;
-    }
-
-    .tools-list span::after {
-        content: ' | ' !important;
-    }
-
-    .tools-list span:last-child::after {
-        content: '' !important;
+        display: none;
     }
 
     .skills-grid {
